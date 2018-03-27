@@ -1,0 +1,5 @@
+ID,Type,Label,Parent,Text definition,Comments,Subclass of,Equivalent to,Disjoint with,Ignore
+OPSO:0000001,Class,permit,'continuant',,A permit for a physical specimen,,,,
+OPSO:0000002,Class,collecting permit,'permit',,A permit that authorizes the collection of specimens.,,,,
+OPSO:0000003,Class,exemption permit,'permit',,A permit that authorizes that an action does not require specific permits or documentation.,,,,
+OPSO:0000004,Class,import permit,'permit',,A permit that authorizes importing specimens into a country from abroad.,,,,
