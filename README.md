@@ -8,3 +8,10 @@ To view the initial ontology load the following URL into protege:
 
 ```
 ```
+
+To build the ontology, install [Ontopilot](https://github.com/stuckyb/ontopilot/), download this source code from this repository,  and run the following commands:
+
+```
+ontopilot make ontology
+ontopilot make ontology --merge_imports --reason
+```
