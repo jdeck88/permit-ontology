@@ -1,6 +1,6 @@
 # permit-ontology
 
-DISCLAIMER! This is a rough draft of what a permit ontology *could* look like.   It is not meant to be correct or authorative in any way.
+DISCLAIMER! This is a rough draft of what a permit ontology *could* look like.   In its current form, it is not meant to be correct or authorative in any way.  This may change in the future, if we continue to pursue this project.
 
 The permit ontology was conceived of at the BCoN workshop at Harvard University, March 27, 2018 and meant to convey the different types of permits, certificates, memorandums, copyrights, and usage agreements that are possible for attachment to biological samples.  The initial build of this ontology was started based on a set of basic definitions provided to workshop participants.
 
