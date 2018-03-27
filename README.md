@@ -7,6 +7,7 @@ The initial build of this ontology was started based on a set of basic definitio
 To view the initial ontology load the following URL into protege:
 
 ```
+https://raw.githubusercontent.com/jdeck88/permit-ontology/master/ontology/permit-ontology-merged-reasoned.owl
 ```
 
 To build the ontology, install [Ontopilot](https://github.com/stuckyb/ontopilot/), download this source code from this repository,  and run the following commands:
