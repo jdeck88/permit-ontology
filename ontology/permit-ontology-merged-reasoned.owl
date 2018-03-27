@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <Ontology rdf:about="file://localhost/Users/jdeck/IdeaProjects/permit-ontology/ontology/permit-ontology-merged-reasoned.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000601 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000100 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OPSO_0000100">
+        <rdfs:comment xml:lang="en">This is meant only as an example of how to create new properties.</rdfs:comment>
+        <rdfs:label xml:lang="en">sample property</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:BFO_0000179>continuant</obo:BFO_0000179>
+        <obo:BFO_0000180>Continuant</obo:BFO_0000180>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&apos;s other portions of reality, questions are raised as to whether universals are continuants</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <obo:IAO_0000600 xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <annotatedTarget xml:lang="en">Continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&apos;s other portions of reality, questions are raised as to whether universals are continuants</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000007"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <annotatedTarget xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/008-002"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/126-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/009-002"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/011-002"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/009-002"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/126-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/008-002"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/011-002"/>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <obo:BFO_0000179>occurrent</obo:BFO_0000179>
+        <obo:BFO_0000180>Occurrent</obo:BFO_0000180>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: every occurrent that is not a temporal or spatiotemporal region is s-dependent on some independent continuant that is not a spatial region</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: s-dependence obtains between every process and its participants in the sense that, as a matter of necessity, this process could not have existed unless these or those participants existed also. A process may have a succession of participants at different phases of its unfolding. Thus there may be different players on the field at different times during the course of a football game; but the process which is the entire game s-depends_on all of these players nonetheless. Some temporal parts of this process will s-depend_on on only some of the players.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrent doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. An example would be the sum of a process and the process boundary of another process.</obo:IAO_0000116>
+        <obo:IAO_0000116>Simons uses different terminology for relations of occurrents to regions: Denote the spatio-temporal location of a given occurrent e by &apos;spn[e]&apos; and call this region its span. We may say an occurrent is at its span, in any larger region, and covers any smaller region. Now suppose we have fixed a frame of reference so that we can speak not merely of spatio-temporal but also of spatial regions (places) and temporal regions (times). The spread of an occurrent, (relative to a frame of reference) is the space it exactly occupies, and its spell is likewise the time it exactly occupies. We write &apos;spr[e]&apos; and `spl[e]&apos; respectively for the spread and spell of e, omitting mention of the frame.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <obo:IAO_0000600 xml:lang="en">An occurrent is an entity that unfolds itself in time or it is the instantaneous boundary of such an entity (for example a beginning or an ending) or it is a temporal or spatiotemporal region which such an entity occupies_temporal_region or occupies_spatiotemporal_region. (axiom label in BFO2 Reference: [077-002])</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">Every occurrent occupies_spatiotemporal_region some spatiotemporal region. (axiom label in BFO2 Reference: [108-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">b is an occurrent entity iff b is an entity that has temporal parts. (axiom label in BFO2 Reference: [079-001])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">occurrent</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <annotatedTarget xml:lang="en">Occurrent doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. An example would be the sum of a process and the process boundary of another process.</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000006"/>
+        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <annotatedTarget>Simons uses different terminology for relations of occurrents to regions: Denote the spatio-temporal location of a given occurrent e by &apos;spn[e]&apos; and call this region its span. We may say an occurrent is at its span, in any larger region, and covers any smaller region. Now suppose we have fixed a frame of reference so that we can speak not merely of spatio-temporal but also of spatial regions (places) and temporal regions (times). The spread of an occurrent, (relative to a frame of reference) is the space it exactly occupies, and its spell is likewise the time it exactly occupies. We write &apos;spr[e]&apos; and `spl[e]&apos; respectively for the spread and spell of e, omitting mention of the frame.</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000012"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <annotatedTarget xml:lang="en">An occurrent is an entity that unfolds itself in time or it is the instantaneous boundary of such an entity (for example a beginning or an ending) or it is a temporal or spatiotemporal region which such an entity occupies_temporal_region or occupies_spatiotemporal_region. (axiom label in BFO2 Reference: [077-002])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/077-002"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">Every occurrent occupies_spatiotemporal_region some spatiotemporal region. (axiom label in BFO2 Reference: [108-001])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/108-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">b is an occurrent entity iff b is an entity that has temporal parts. (axiom label in BFO2 Reference: [079-001])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/079-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/108-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/079-001"/>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000011 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:BFO_0000179>st-region</obo:BFO_0000179>
+        <obo:BFO_0000180>SpatiotemporalRegion</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">the spatiotemporal region occupied by a human life</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the spatiotemporal region occupied by a process of cellular meiosis.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the spatiotemporal region occupied by the development of a cancer tumor</obo:IAO_0000112>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <obo:IAO_0000600 xml:lang="en">A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">Each spatiotemporal region at any time t projects_onto some spatial region at t. (axiom label in BFO2 Reference: [099-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">Each spatiotemporal region projects_onto some temporal region. (axiom label in BFO2 Reference: [098-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">Every spatiotemporal region occupies_spatiotemporal_region itself.</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">Every spatiotemporal region s is such that s occupies_spatiotemporal_region s. (axiom label in BFO2 Reference: [107-002])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">spatiotemporal region</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <annotatedTarget xml:lang="en">A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/095-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/096-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">Each spatiotemporal region at any time t projects_onto some spatial region at t. (axiom label in BFO2 Reference: [099-001])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/099-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">Each spatiotemporal region projects_onto some temporal region. (axiom label in BFO2 Reference: [098-001])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/098-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <annotatedTarget xml:lang="en">Every spatiotemporal region s is such that s occupies_spatiotemporal_region s. (axiom label in BFO2 Reference: [107-002])</annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/107-002"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/107-002"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/099-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/096-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/095-001"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <annotatedTarget>(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] </annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/098-001"/>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000001 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">A formal and legally binding agreement between parties</rdfs:comment>
+        <rdfs:label xml:lang="en">contract</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000002 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">Used for the transfer of non-public data that is subject to some restrions on its use</rdfs:comment>
+        <rdfs:label xml:lang="en">data use</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000003 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">indicates that specimens are in accordance with any domestic regulations regarding human pathogens</rdfs:comment>
+        <rdfs:label xml:lang="en">human pathogens</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000004 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">An official document giving someone authorization to do something</rdfs:comment>
+        <rdfs:label xml:lang="en">permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000005 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes the collection of specimens.</rdfs:comment>
+        <rdfs:label xml:lang="en">collecting permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000006 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes that an action does not require specific permits or documentation.</rdfs:comment>
+        <rdfs:label xml:lang="en">exemption permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000007 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes importing specimens into a country from abroad.</rdfs:comment>
+        <rdfs:label xml:lang="en">import permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000008 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes exporting specimens abroad.</rdfs:comment>
+        <rdfs:label xml:lang="en">export permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000009 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes the collection of dead animals or animal parts from the wild.</rdfs:comment>
+        <rdfs:label xml:lang="en">salvage permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000010 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">rights given to persons over the creations of their minds.</rdfs:comment>
+        <rdfs:label xml:lang="en">intellectual property rights</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000011 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000010"/>
+        <rdfs:comment xml:lang="en">a government authority or license conferring a right or title for a set period, especially the sole right to exclude others from making, using, or selling an invention.</rdfs:comment>
+        <rdfs:label xml:lang="en">patent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000012 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000010"/>
+        <rdfs:comment xml:lang="en">provides the creator of an original work exclusive rights, usually for a limited time.</rdfs:comment>
+        <rdfs:label xml:lang="en">copyright</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000013 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">An official document attesting to a certain fact</rdfs:comment>
+        <rdfs:label xml:lang="en">certificate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000014 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000013"/>
+        <rdfs:comment xml:lang="en">serves as evidence that a genetic resource has been accessed in accordance with Prior Informed Consent and that Mutually Agreed Terms have been established</rdfs:comment>
+        <rdfs:label xml:lang="en">internationally recognized certificate of compliance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000015 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000013"/>
+        <rdfs:comment xml:lang="en">indicates that specimens are in accordance with any domestic regulations regarding animal health</rdfs:comment>
+        <rdfs:label xml:lang="en">veterinary certificate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000016 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000013"/>
+        <rdfs:comment xml:lang="en">indicates that plant and plant products are free from regualted pests</rdfs:comment>
+        <rdfs:label xml:lang="en">phytosanitary certificate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000017 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">a written message</rdfs:comment>
+        <rdfs:label xml:lang="en">memorandum</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000018 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000017"/>
+        <rdfs:comment xml:lang="en">outlines the terms and details of cooperation between parties</rdfs:comment>
+        <rdfs:label xml:lang="en">memorandum of cooperation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000019 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000017"/>
+        <rdfs:comment xml:lang="en">outlines the terms and details of an understanding between parties</rdfs:comment>
+        <rdfs:label xml:lang="en">memorandum of understanding</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000020 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000017"/>
+        <rdfs:comment xml:lang="en">governs the transfer of tangible materials between two organizations</rdfs:comment>
+        <rdfs:label xml:lang="en">material transfer agreemant</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.4) https://github.com/owlcs/owlapi -->
+

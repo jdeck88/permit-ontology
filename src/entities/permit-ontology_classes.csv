@@ -1,5 +1,29 @@
 ID,Type,Label,Parent,Text definition,Comments,Subclass of,Equivalent to,Disjoint with,Ignore
-OPSO:0000001,Class,permit,'continuant',,A permit for a physical specimen,,,,
-OPSO:0000002,Class,collecting permit,'permit',,A permit that authorizes the collection of specimens.,,,,
-OPSO:0000003,Class,exemption permit,'permit',,A permit that authorizes that an action does not require specific permits or documentation.,,,,
-OPSO:0000004,Class,import permit,'permit',,A permit that authorizes importing specimens into a country from abroad.,,,,
+
+OPSO:0000001,Class,contract,'continuant',,A formal and legally binding agreement between parties,,,,
+
+OPSO:0000002,Class,data use,'continuant',,Used for the transfer of non-public data that is subject to some restrions on its use,,,,
+
+OPSO:0000003,Class,human pathogens,'continuant',,indicates that specimens are in accordance with any domestic regulations regarding human pathogens,,,,
+
+OPSO:0000004,Class,permit,'continuant',,An official document giving someone authorization to do something,,,,
+OPSO:0000005,Class,collecting permit,'permit',,A permit that authorizes the collection of specimens.,,,,
+OPSO:0000006,Class,exemption permit,'permit',,A permit that authorizes that an action does not require specific permits or documentation.,,,,
+OPSO:0000007,Class,import permit,'permit',,A permit that authorizes importing specimens into a country from abroad.,,,,
+OPSO:0000008,Class,export permit,'permit',,A permit that authorizes exporting specimens abroad.,,,,
+OPSO:0000009,Class,salvage permit,'permit',,A permit that authorizes the collection of dead animals or animal parts from the wild.,,,,
+
+OPSO:0000010,Class,intellectual property rights,'permit',,rights given to persons over the creations of their minds.,,,,
+OPSO:0000011,Class,patent,'intellectual property rights',,"a government authority or license conferring a right or title for a set period, especially the sole right to exclude others from making, using, or selling an invention.",,,,
+OPSO:0000012,Class,copyright,'intellectual property rights',,"provides the creator of an original work exclusive rights, usually for a limited time.",,,,
+
+OPSO:0000013,Class,certificate,'permit',,An official document attesting to a certain fact,,,,
+OPSO:0000014,Class,internationally recognized certificate of compliance,'certificate',,serves as evidence that a genetic resource has been accessed in accordance with Prior Informed Consent and that Mutually Agreed Terms have been established,,,,
+OPSO:0000015,Class,veterinary certificate,'certificate',,indicates that specimens are in accordance with any domestic regulations regarding animal health,,,,
+OPSO:0000016,Class,phytosanitary certificate,'certificate',,indicates that plant and plant products are free from regualted pests,,,,
+
+OPSO:0000017,Class,memorandum,'continuant',,a written message,,,,
+OPSO:0000018,Class,memorandum of cooperation,'memorandum',,outlines the terms and details of cooperation between parties,,,,
+OPSO:0000019,Class,memorandum of understanding,'memorandum',,outlines the terms and details of an understanding between parties,,,,
+OPSO:0000020,Class,material transfer agreemant,'memorandum',,governs the transfer of tangible materials between two organizations,,,,
+

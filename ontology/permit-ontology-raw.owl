@@ -49,8 +49,8 @@
 
     <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:comment xml:lang="en">A permit for a physical specimen</rdfs:comment>
-        <rdfs:label xml:lang="en">permit</rdfs:label>
+        <rdfs:comment xml:lang="en">A formal and legally binding agreement between parties</rdfs:comment>
+        <rdfs:label xml:lang="en">contract</rdfs:label>
     </Class>
     
 
@@ -58,9 +58,9 @@
     <!-- http://purl.obolibrary.org/obo/OPSO_0000002 -->
 
     <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000001"/>
-        <rdfs:comment xml:lang="en">A permit that authorizes the collection of specimens.</rdfs:comment>
-        <rdfs:label xml:lang="en">collecting permit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">Used for the transfer of non-public data that is subject to some restrions on its use</rdfs:comment>
+        <rdfs:label xml:lang="en">data use</rdfs:label>
     </Class>
     
 
@@ -68,9 +68,9 @@
     <!-- http://purl.obolibrary.org/obo/OPSO_0000003 -->
 
     <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000001"/>
-        <rdfs:comment xml:lang="en">A permit that authorizes that an action does not require specific permits or documentation.</rdfs:comment>
-        <rdfs:label xml:lang="en">exemption permit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">indicates that specimens are in accordance with any domestic regulations regarding human pathogens</rdfs:comment>
+        <rdfs:label xml:lang="en">human pathogens</rdfs:label>
     </Class>
     
 
@@ -78,9 +78,169 @@
     <!-- http://purl.obolibrary.org/obo/OPSO_0000004 -->
 
     <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">An official document giving someone authorization to do something</rdfs:comment>
+        <rdfs:label xml:lang="en">permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000005 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes the collection of specimens.</rdfs:comment>
+        <rdfs:label xml:lang="en">collecting permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000006 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes that an action does not require specific permits or documentation.</rdfs:comment>
+        <rdfs:label xml:lang="en">exemption permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000007 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
         <rdfs:comment xml:lang="en">A permit that authorizes importing specimens into a country from abroad.</rdfs:comment>
         <rdfs:label xml:lang="en">import permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000008 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes exporting specimens abroad.</rdfs:comment>
+        <rdfs:label xml:lang="en">export permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000009 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes the collection of dead animals or animal parts from the wild.</rdfs:comment>
+        <rdfs:label xml:lang="en">salvage permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000010 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">rights given to persons over the creations of their minds.</rdfs:comment>
+        <rdfs:label xml:lang="en">intellectual property rights</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000011 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000010"/>
+        <rdfs:comment xml:lang="en">a government authority or license conferring a right or title for a set period, especially the sole right to exclude others from making, using, or selling an invention.</rdfs:comment>
+        <rdfs:label xml:lang="en">patent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000012 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000010"/>
+        <rdfs:comment xml:lang="en">provides the creator of an original work exclusive rights, usually for a limited time.</rdfs:comment>
+        <rdfs:label xml:lang="en">copyright</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000013 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
+        <rdfs:comment xml:lang="en">An official document attesting to a certain fact</rdfs:comment>
+        <rdfs:label xml:lang="en">certificate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000014 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000013"/>
+        <rdfs:comment xml:lang="en">serves as evidence that a genetic resource has been accessed in accordance with Prior Informed Consent and that Mutually Agreed Terms have been established</rdfs:comment>
+        <rdfs:label xml:lang="en">internationally recognized certificate of compliance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000015 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000013"/>
+        <rdfs:comment xml:lang="en">indicates that specimens are in accordance with any domestic regulations regarding animal health</rdfs:comment>
+        <rdfs:label xml:lang="en">veterinary certificate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000016 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000013"/>
+        <rdfs:comment xml:lang="en">indicates that plant and plant products are free from regualted pests</rdfs:comment>
+        <rdfs:label xml:lang="en">phytosanitary certificate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000017 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">a written message</rdfs:comment>
+        <rdfs:label xml:lang="en">memorandum</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000018 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000017"/>
+        <rdfs:comment xml:lang="en">outlines the terms and details of cooperation between parties</rdfs:comment>
+        <rdfs:label xml:lang="en">memorandum of cooperation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000019 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000017"/>
+        <rdfs:comment xml:lang="en">outlines the terms and details of an understanding between parties</rdfs:comment>
+        <rdfs:label xml:lang="en">memorandum of understanding</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000020 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000017"/>
+        <rdfs:comment xml:lang="en">governs the transfer of tangible materials between two organizations</rdfs:comment>
+        <rdfs:label xml:lang="en">material transfer agreemant</rdfs:label>
     </Class>
 </rdf:RDF>
 
