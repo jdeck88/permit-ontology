@@ -119,18 +119,8 @@
 
     <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
-        <rdfs:comment xml:lang="en">A permit that authorizes importing specimens into a country from abroad a single time.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A permit that authorizes importing specimens into a country from abroad.</rdfs:comment>
         <rdfs:label xml:lang="en">import permit</rdfs:label>
-    </Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OPSO_0000009 -->
-
-    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000008"/>
-        <rdfs:comment xml:lang="en">A permit that authorizes importing specimens into a country from abroad multiple times.</rdfs:comment>
-        <rdfs:label xml:lang="en">single use import permit</rdfs:label>
     </Class>
     
 
@@ -139,18 +129,8 @@
 
     <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000004"/>
-        <rdfs:comment xml:lang="en">A permit that authorizes exporting specimens abroad a single time.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A permit that authorizes exporting specimens abroad.</rdfs:comment>
         <rdfs:label xml:lang="en">export permit</rdfs:label>
-    </Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OPSO_0000011 -->
-
-    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000010"/>
-        <rdfs:comment xml:lang="en">A permit that authorizes exporting specimens abroad multiple times.</rdfs:comment>
-        <rdfs:label xml:lang="en">single use export permit</rdfs:label>
     </Class>
     
 
@@ -261,6 +241,46 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000019"/>
         <rdfs:comment xml:lang="en">governs the transfer of tangible materials between two organizations</rdfs:comment>
         <rdfs:label xml:lang="en">material transfer agreemant</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000031 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000008"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes importing specimens into a country from abroad a single time.</rdfs:comment>
+        <rdfs:label xml:lang="en">single use import permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000032 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000008"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes importing specimens into a country from abroad multiple times.</rdfs:comment>
+        <rdfs:label xml:lang="en">multiple use import permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000040 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000010"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes exporting specimens abroad a single time.</rdfs:comment>
+        <rdfs:label xml:lang="en">single use export permit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPSO_0000041 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OPSO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPSO_0000010"/>
+        <rdfs:comment xml:lang="en">A permit that authorizes exporting specimens abroad multiple times.</rdfs:comment>
+        <rdfs:label xml:lang="en">multiple use export permit</rdfs:label>
     </Class>
 </rdf:RDF>
 

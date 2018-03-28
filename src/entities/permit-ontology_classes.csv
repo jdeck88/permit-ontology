@@ -11,11 +11,13 @@ OPSO:0000005,Class,collecting permit,'permit',,A permit that authorizes the coll
 OPSO:0000006,Class,exemption permit,'permit',,A permit that authorizes that an action does not require specific permits or documentation.,,,,
 OPSO:0000007,Class,salvage permit,'permit',,A permit that authorizes the collection of dead animals or animal parts from the wild.,,,,
 
-OPSO:0000008,Class,import permit,'permit',,A permit that authorizes importing specimens into a country from abroad a single time.,,,,
-OPSO:0000009,Class,single use import permit,'import permit',,A permit that authorizes importing specimens into a country from abroad multiple times.,,,,
+OPSO:0000008,Class,import permit,'permit',,A permit that authorizes importing specimens into a country from abroad.,,,,
+OPSO:0000031,Class,single use import permit,'import permit',,A permit that authorizes importing specimens into a country from abroad a single time.,,,,
+OPSO:0000032,Class,multiple use import permit,'import permit',,A permit that authorizes importing specimens into a country from abroad multiple times.,,,,
 
-OPSO:0000010,Class,export permit,'permit',,A permit that authorizes exporting specimens abroad a single time.,,,,
-OPSO:0000011,Class,single use export permit,'export permit',,A permit that authorizes exporting specimens abroad multiple times.,,,,
+OPSO:0000010,Class,export permit,'permit',,A permit that authorizes exporting specimens abroad.,,,,
+OPSO:0000040,Class,single use export permit,'export permit',,A permit that authorizes exporting specimens abroad a single time.,,,,
+OPSO:0000041,Class,multiple use export permit,'export permit',,A permit that authorizes exporting specimens abroad multiple times.,,,,
 
 OPSO:0000012,Class,intellectual property rights,'permit',,rights given to persons over the creations of their minds.,,,,
 OPSO:0000013,Class,patent,'intellectual property rights',,"a government authority or license conferring a right or title for a set period, especially the sole right to exclude others from making, using, or selling an invention.",,,,
